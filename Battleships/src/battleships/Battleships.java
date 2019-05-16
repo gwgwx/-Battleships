@@ -1,0 +1,32 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package battleships;
+
+import battleships.game.Game;
+import java.util.Scanner;
+
+/**
+ *
+ * @author Gwgw
+ */
+public class Battleships {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        System.out.println("========================================");
+        System.out.println("JAVA BATTLESHIP - ** Xypolias Ioannis **");
+        System.out.println("========================================");
+        Game game = new Game();
+        game.init();
+        System.out.println("========================================");
+        System.out.println(" LET'S PLAY ");
+        System.out.println("========================================");
+        game.play();
+
+    }
+}
